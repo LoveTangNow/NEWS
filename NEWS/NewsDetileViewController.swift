@@ -12,10 +12,10 @@ class NewsDetileViewController: UIViewController {
     
     var url = "www.baidu.com";
     
-    //返回上一级函数
     @IBAction func backc(sender: AnyObject) {
         
         self.dismissViewControllerAnimated(true, completion:nil)
+        //返回上一级函数
     
     }
     
