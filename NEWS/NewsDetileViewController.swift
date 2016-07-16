@@ -12,6 +12,7 @@ class NewsDetileViewController: UIViewController {
     
     var url = "www.baidu.com";
     
+    //有添加了一个
     @IBAction func backc(sender: AnyObject) {
         
         self.dismissViewControllerAnimated(true, completion:nil)
